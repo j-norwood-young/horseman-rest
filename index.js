@@ -151,7 +151,7 @@ server.post("/text", (req, res) => {
 	})
 })
 
-server.listen(config.port, function() {
+server.listen(config.server.port, function() {
 	console.log('%s listening at %s', server.name, server.url);
 });
 
