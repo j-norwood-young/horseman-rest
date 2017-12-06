@@ -1,7 +1,7 @@
 Horseman REST
 =============
 
-A RESTful server for PhantomJS via HorsemanJS and Restle
+A RESTful server for PhantomJS built on [HorsemanJS](https://github.com/johntitus/node-horseman) and [Restler](https://github.com/danwrong/restler)
 
 **Status: Very incomplete!**
 
@@ -9,7 +9,7 @@ Currently it can open and close PhantomJS, open tabs, get the status of the tabs
 
 I may or may not work on it more, since I'm also testing [puppeteer](https://github.com/GoogleChrome/puppeteer) for the same purpose.
 
-##Installing
+## Installing
 
 - Download
 - Run `npm install`
