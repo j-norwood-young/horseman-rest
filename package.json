@@ -1,0 +1,26 @@
+{
+  "name": "horseman-rest",
+  "version": "0.0.1",
+  "description": "A RESTful server for PhantomJS via HorsemanJS and Restler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "phantom",
+    "horseman",
+    "rest"
+  ],
+  "author": "Jason Norwood-Young",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.28.1",
+    "node-horseman": "^3.3.0",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1"
+  }
+}
